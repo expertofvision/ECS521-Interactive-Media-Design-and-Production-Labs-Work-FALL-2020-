@@ -12,7 +12,7 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 
 ### A. Canvas and JavaScript
 
-1. Download canvas.html file.
+1. Download [canvas.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-01/canvas.html) file.
 2. Open canvas.html file in browser (chrome/firefox/ie).
 3. Open the canvas.html file in text editor.
 
