@@ -28,7 +28,8 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 
 #### Practice Exercises
 
-1. Draw a straight line on a canvas, use the following methods;
-    moveTo(x,y) - defines the starting point of the line
-    lineTo(x,y) - defines the ending point of the line
+1. Draw a straight line on a canvas, use the following methods; <br/>
+    moveTo(x,y) - defines the starting point of the line <br/>
+    lineTo(x,y) - defines the ending point of the line <br/>
    To actually draw the line, you must use one of the "ink" methods, like stroke().
+2. Draw a circle
