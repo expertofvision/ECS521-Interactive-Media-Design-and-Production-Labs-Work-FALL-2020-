@@ -5,3 +5,7 @@
 
 ## ECS521U - INTERACTIVE MEDIA DESIGN AND PRODUCTION</br>Lab 1
 </div>
+
+
+### Introduction
+This lab includes basis of SVG, Canvas, interaction and animations.
