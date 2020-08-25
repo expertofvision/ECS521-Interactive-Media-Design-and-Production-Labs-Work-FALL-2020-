@@ -36,3 +36,7 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     beginPath() - begins a path <br/>
     arc(x,y,r,startangle,endangle) - creates an arc/curve. To create a circle with arc(): Set start angle to 0 and end angle to 2*Math.PI. The x and y parameters     define the x- and y-coordinates of the center of the circle. The r parameter defines the radius of the circle. <br/>
    Define a circle with the arc() method. Then use the stroke() method to actually draw the circle.
+3. Draw text on a canvas, the most important property and methods are; <br/>
+    font - defines the font properties for the text <br/>
+    fillText(text,x,y) - draws "filled" text on the canvas <br/>
+    strokeText(text,x,y) - draws text on the canvas (no fill) <br/>
