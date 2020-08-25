@@ -91,16 +91,16 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 
 Animation
 1. Examine the canvas and the definition of the ball object.
-2. Replace ball.draw(); by the following code:
-    function drawBall() {
-      ball.x += ball.vx;
-      ball.y += ball.vy;
-      ball.draw()
-      window.requestAnimationFrame(drawBall);
-    }
-   drawBall();
+2. Replace ball.draw(); by the following code; <br/>
+    function drawBall() { <br/>
+      ball.x += ball.vx; <br/>
+      ball.y += ball.vy; <br/>
+      ball.draw() <br/>
+      window.requestAnimationFrame(drawBall); <br/>
+    } <br/>
+   drawBall(); <br/>
  
- Questions:
+ _Questions:_
  1. Write the differences in few sentences.
  2. Make the ball move only on horizontal direction.
  3. Make the ball move only on vertical direction.
