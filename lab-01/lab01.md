@@ -43,7 +43,7 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 4. Draw an image on a canvas as follows; <br/>
    Download [pic_the_scream.jpg](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-01/pic_the_scream.jpg) and define in the script using html. Remember to fix image width and height. <br/>
    Then, var img = document.getElementById("scream"); will be used. <br/>
-5. Draw Paths on canvas like this using following script; <br/>
+5. Draw Paths on canvas like this using following script and see the output; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.beginPath();                
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.arc(75,75,50,0,Math.PI*2,true);  // Outer circle                               
 
