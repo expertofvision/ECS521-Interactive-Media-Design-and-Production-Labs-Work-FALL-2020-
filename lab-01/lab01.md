@@ -81,3 +81,10 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     <text x="0" y="15" fill="red" transform="rotate(30 20,40)">I love SVG</text> 
     </svg>
 
+### To Do Questions
+
+1. Download todo.html file.
+2. Open the file in browser (chrome/firefox/ie).
+3. Open the file in text editor.
+
+
