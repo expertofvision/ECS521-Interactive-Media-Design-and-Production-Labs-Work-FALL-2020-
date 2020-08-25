@@ -19,12 +19,12 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 #### Drawing in Canvas (step-by-step) with JavaScript
 
 1. Find the canvas element. <br/>
-    var canvas = document.getElementById("myCanvas");
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var canvas = document.getElementById("myCanvas");
 2. Create a drawing object. <br/>
-    var ctx = canvas.getContext("2d"); 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var ctx = canvas.getContext("2d"); 
 3. Draw in the canvas. <br/>
-    ctx.fillStyle = "#FF0000"; <br/>
-    ctx.fillRect(25, 25, 50, 50);
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.fillStyle = "#FF0000"; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.fillRect(25, 25, 50, 50);
 
 #### Practice Examples
 
