@@ -40,12 +40,10 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font - defines the font properties for the text <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fillText(text,x,y) - draws "filled" text on the canvas <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; strokeText(text,x,y) - draws text on the canvas (no fill) <br/>
-4. Draw an image on a canvas, use the following method; <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drawImage(image,x,y) <br/>
-   You need to first define image as follows; <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img id="scream" width="220" height="277" src="pic_the_scream.jpg" alt="The Scream"> <br/>
+4. Draw an image on a canvas as follows; <br/>
+   Download [pic_the_scream.jpg](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-01/pic_the_scream.jpg) and define in the script using html. Remember to fix image width and height. <br/>
    Then, var img = document.getElementById("scream"); will be used. <br/>
-   Draw Paths on canvas like this using following script; <br/>
+5. Draw Paths on canvas like this using following script; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.beginPath();                
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.arc(75,75,50,0,Math.PI*2,true);  // Outer circle                               
 
