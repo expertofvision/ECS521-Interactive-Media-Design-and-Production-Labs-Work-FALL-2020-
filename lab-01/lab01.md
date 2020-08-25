@@ -83,7 +83,7 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 
 ### C. To Do Questions
 
-1. Download todo.html file.
+1. Download [todo.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-01/todo.html) file.
 2. Open the file in browser (chrome/firefox/ie).
 3. Open the file in text editor.
 
