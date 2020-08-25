@@ -7,10 +7,10 @@
 </div>
 
 
-### Introduction
+### About this Lab
 This lab includes basis of Canvas, SVG, Interaction and Animations.
 
-### A. Canvas and JavaScript Examples
+### A. Canvas and JavaScript
 
 1. Download canvas.html file.
 2. Open canvas.html file in browser (chrome/firefox/ie).
@@ -26,7 +26,7 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     ctx.fillStyle = "#FF0000"; <br/>
     ctx.fillRect(25, 25, 50, 50);
 
-#### Practice Exercises
+#### Practice Examples
 
 1. Draw a straight line on a canvas, use the following methods; <br/>
     moveTo(x,y) - defines the starting point of the line <br/>
@@ -59,3 +59,25 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     ctx.arc(90,65,5,0,Math.PI*2,true);  // Right eye               
     
     ctx.stroke();
+
+### B. SVG and JavaScript
+
+1. Download svg.html file.
+2. Open svg.html in browser (chrome/firefox/ie).
+3. Open svg.html in text editor.
+
+#### Practice Examples
+
+1. Copy the following script in svg.html and see the output.
+    <svg height="140" width="500"> 
+    <ellipse cx="200" cy="80" rx="100" ry="50" style="fill:yellow;stroke:purple;stroke-width:2" /> 
+    </svg>
+2. Copy the following script in svg.html and see the output.
+    <svg height="250" width="500"> 
+    <polygon points="220,10 300,210 170,250 123,234" style="fill:lime;stroke:purple;stroke-width:1" /> 
+    </svg>
+3. Copy the following script in svg.html and see the output.
+    <svg height="60" width="200"> 
+    <text x="0" y="15" fill="red" transform="rotate(30 20,40)">I love SVG</text> 
+    </svg>
+
