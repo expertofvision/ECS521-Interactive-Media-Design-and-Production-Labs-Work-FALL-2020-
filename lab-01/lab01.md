@@ -101,17 +101,24 @@ Animation
    drawBall(); <br/>
  
  _Questions:_
- 1. Write the differences in few sentences.
- 2. Make the ball move only on horizontal direction.
- 3. Make the ball move only on vertical direction.
- 4. keep the ball moving inside the canvas. Hint: add an if condition to check ball.x and ball.y values.
+1. Write the differences in few sentences.
+2. Make the ball move only on horizontal direction.
+3. Make the ball move only on vertical direction.
+4. keep the ball moving inside the canvas. Hint: add an if condition to check ball.x and ball.y values.
  
  #### SVG and JavaScript
  
- 1. Go to SVG Editor
- 2. Draw a stick figure.
- 3. Click on <svg> button (top toolbar) and copy-paste the SVG of your drawing to the place marked in the index.html file. Save changes and refresh your browser. 
+1. Go to SVG Editor
+2. Draw a stick figure.
+3. Click on <svg> button (top toolbar) and copy-paste the SVG of your drawing to the place marked in the index.html file. Save changes and refresh your browser. 
 
+_Questions:_
+1. Examine the JavaScript code below your SVG. It connects two functions to mouse-events, in relation to an SVG object called
+stick_figure. Add the id attribute to <svg> tag, so that it reads id="stick_figure". Try moving the mouse over your drawing and see what happens. Write the difference in few sentences.
+2. Add the properties x=0 y=0 to <svg> tag. Examine the listener keydown and the function move. Go to the browser and press the right arrow key. Check the console to see the correct key code. Do the same for the left arrow key. Replace the key codes in the move function. Move your sick figure by using the right and left arrow keys.
+  
+
+**Note:** 
 
 
 
