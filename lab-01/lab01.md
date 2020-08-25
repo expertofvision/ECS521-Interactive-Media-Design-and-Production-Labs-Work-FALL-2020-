@@ -53,7 +53,7 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.arc(75,75,35,0,Math.PI,false);   // Mouth                               
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.moveTo(65,65);               
-    ctx.arc(60,65,5,0,Math.PI*2,true);  // Left eye                               
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.arc(60,65,5,0,Math.PI*2,true);  // Left eye                               
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.moveTo(95,65);                
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.arc(90,65,5,0,Math.PI*2,true);  // Right eye               
