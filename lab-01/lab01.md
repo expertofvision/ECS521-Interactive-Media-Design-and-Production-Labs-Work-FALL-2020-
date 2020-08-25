@@ -29,12 +29,12 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 #### Practice Examples
 
 1. Draw a straight line on a canvas, use the following methods; <br/>
-    moveTo(x,y) - defines the starting point of the line <br/>
-    lineTo(x,y) - defines the ending point of the line <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; moveTo(x,y) - defines the starting point of the line <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lineTo(x,y) - defines the ending point of the line <br/>
    To actually draw the line, you must use one of the "ink" methods, like stroke().
 2. Draw a circle on a canvas, use the following methods; <br/>
-    beginPath() - begins a path <br/>
-    arc(x,y,r,startangle,endangle) - creates an arc/curve. To create a circle with arc(): Set start angle to 0 and end angle to 2*Math.PI. The x and y parameters     define the x- and y-coordinates of the center of the circle. The r parameter defines the radius of the circle. <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beginPath() - begins a path <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; arc(x,y,r,startangle,endangle) - creates an arc/curve. To create a circle with arc(): Set start angle to 0 and end angle     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to 2*Math.PI. The x and y parameters     define the x- and y-coordinates of the center of the circle. The r parameter defines the radius of the circle. <br/>
    Define a circle with the arc() method. Then use the stroke() method to actually draw the circle.
 3. Draw text on a canvas, the most important property and methods are; <br/>
     font - defines the font properties for the text <br/>
