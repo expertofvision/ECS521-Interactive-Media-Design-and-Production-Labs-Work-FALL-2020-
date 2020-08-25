@@ -106,7 +106,7 @@ Animation
  
  #### SVG and JavaScript
  
-1. Go to SVG Editor
+1. Go to [SVG Editor](https://svg-edit.github.io/svgedit/src/editor/svg-editor.html).
 2. Draw a stick figure.
 3. Click on <svg> button (top toolbar) and copy-paste the SVG of your drawing to the place marked in the index.html file. Save changes and refresh your browser. 
 
