@@ -118,7 +118,7 @@ stick_figure. Add the id attribute to <svg> tag, so that it reads id="stick_figu
 2. Add the properties x=0 y=0 to <svg> tag. Examine the listener keydown and the function move. Go to the browser and press the right arrow key. Check the console to see the correct key code. Do the same for the left arrow key. Replace the key codes in the move function. Move your sick figure by using the right and left arrow keys.
   
 
-**Note:** 
+**Note:** Submit answers to the questions in Part C by......
 
 
 
