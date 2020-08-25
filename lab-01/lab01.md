@@ -105,6 +105,13 @@ Animation
  2. Make the ball move only on horizontal direction.
  3. Make the ball move only on vertical direction.
  4. keep the ball moving inside the canvas. Hint: add an if condition to check ball.x and ball.y values.
+ 
+ #### SVG and JavaScript
+ 
+ 1. Go to SVG Editor
+ 2. Draw a stick figure.
+ 3. Click on <svg> button (top toolbar) and copy-paste the SVG of your drawing to the place marked in the index.html file. Save changes and refresh your browser. 
+
 
 
 
