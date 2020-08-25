@@ -10,18 +10,18 @@
 ### Introduction
 This lab includes basis of Canvas, SVG, Interaction and Animations.
 
-### Canvas and JavaScript Examples
+### A. Canvas and JavaScript Examples
 
 1. Download canvas.html file.
 2. Open canvas.html file in browser (chrome/firefox/ie).
 3. Open the canvas.html file in text editor.
 
-## Drawing in Canvas (step-by-step) with JavaScript
+#### Drawing in Canvas (step-by-step) with JavaScript
 
-1. Find the canvas element.
-  var canvas = document.getElementById("myCanvas");
-2. Create a drawing object.
-  var ctx = canvas.getContext("2d"); 
-3. Draw in the canvas
-  ctx.fillStyle = "#FF0000";
-  ctx.fillRect(25, 25, 50, 50);
+1. Find the canvas element. <br/>
+    var canvas = document.getElementById("myCanvas");
+2. Create a drawing object. <br/>
+    var ctx = canvas.getContext("2d"); 
+3. Draw in the canvas. <br/>
+    ctx.fillStyle = "#FF0000"; <br/>
+    ctx.fillRect(25, 25, 50, 50);
