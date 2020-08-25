@@ -37,28 +37,28 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; arc(x,y,r,startangle,endangle) - creates an arc/curve. To create a circle with arc(): Set start angle to 0 and end angle     to 2*Math.PI. The &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x and y parameters     define the x- and y-coordinates of the center of the circle. The r parameter defines the radius of the circle. <br/>
    Define a circle with the arc() method. Then use the stroke() method to actually draw the circle.
 3. Draw text on a canvas, the most important property and methods are; <br/>
-    font - defines the font properties for the text <br/>
-    fillText(text,x,y) - draws "filled" text on the canvas <br/>
-    strokeText(text,x,y) - draws text on the canvas (no fill) <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font - defines the font properties for the text <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fillText(text,x,y) - draws "filled" text on the canvas <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; strokeText(text,x,y) - draws text on the canvas (no fill) <br/>
 4. Draw an image on a canvas, use the following method; <br/>
-    drawImage(image,x,y) <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drawImage(image,x,y) <br/>
    You need to first define image as follows; <br/>
-    <img id="scream" width="220" height="277" src="pic_the_scream.jpg" alt="The Scream"> <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img id="scream" width="220" height="277" src="pic_the_scream.jpg" alt="The Scream"> <br/>
    Then, var img = document.getElementById("scream"); will be used. <br/>
    Draw Paths on canvas like this using following script; <br/>
-    ctx.beginPath();                
-    ctx.arc(75,75,50,0,Math.PI*2,true);  // Outer circle                               
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.beginPath();                
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.arc(75,75,50,0,Math.PI*2,true);  // Outer circle                               
 
-    ctx.moveTo(110,75);               
-    ctx.arc(75,75,35,0,Math.PI,false);   // Mouth                               
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.moveTo(110,75);               
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.arc(75,75,35,0,Math.PI,false);   // Mouth                               
 
-    ctx.moveTo(65,65);               
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.moveTo(65,65);               
     ctx.arc(60,65,5,0,Math.PI*2,true);  // Left eye                               
 
-    ctx.moveTo(95,65);                
-    ctx.arc(90,65,5,0,Math.PI*2,true);  // Right eye               
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.moveTo(95,65);                
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.arc(90,65,5,0,Math.PI*2,true);  // Right eye               
     
-    ctx.stroke();
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.stroke();
 
 ### B. SVG and JavaScript
 
@@ -92,13 +92,13 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 Animation
 1. Examine the canvas and the definition of the ball object.
 2. Replace ball.draw(); by the following code; <br/>
-    function drawBall() { <br/>
-      ball.x += ball.vx; <br/>
-      ball.y += ball.vy; <br/>
-      ball.draw() <br/>
-      window.requestAnimationFrame(drawBall); <br/>
-    } <br/>
-   drawBall(); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; function drawBall() { <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ball.x += ball.vx; <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ball.y += ball.vy; <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ball.draw() <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; window.requestAnimationFrame(drawBall); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drawBall(); <br/>
  
  _Questions:_
 1. Write the differences in few sentences.
