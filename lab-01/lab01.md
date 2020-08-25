@@ -25,3 +25,10 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 3. Draw in the canvas. <br/>
     ctx.fillStyle = "#FF0000"; <br/>
     ctx.fillRect(25, 25, 50, 50);
+
+#### Practice Exercises
+
+1. Draw a straight line on a canvas, use the following methods;
+    moveTo(x,y) - defines the starting point of the line
+    lineTo(x,y) - defines the ending point of the line
+   To actually draw the line, you must use one of the "ink" methods, like stroke().
