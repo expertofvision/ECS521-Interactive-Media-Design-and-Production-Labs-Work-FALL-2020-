@@ -81,10 +81,31 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     <text x="0" y="15" fill="red" transform="rotate(30 20,40)">I love SVG</text> 
     </svg>
 
-### To Do Questions
+### C. To Do Questions
 
 1. Download todo.html file.
 2. Open the file in browser (chrome/firefox/ie).
 3. Open the file in text editor.
+
+#### Canvas and JavaScript
+
+Animation
+1. Examine the canvas and the definition of the ball object.
+2. Replace ball.draw(); by the following code:
+    function drawBall() {
+      ball.x += ball.vx;
+      ball.y += ball.vy;
+      ball.draw()
+      window.requestAnimationFrame(drawBall);
+    }
+   drawBall();
+ 
+ Questions:
+ 1. Write the differences in few sentences.
+ 2. Make the ball move only on horizontal direction.
+ 3. Make the ball move only on vertical direction.
+ 4. keep the ball moving inside the canvas. Hint: add an if condition to check ball.x and ball.y values.
+
+
 
 
