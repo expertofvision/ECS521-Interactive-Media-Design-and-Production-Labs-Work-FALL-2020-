@@ -32,4 +32,10 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     moveTo(x,y) - defines the starting point of the line <br/>
     lineTo(x,y) - defines the ending point of the line <br/>
    To actually draw the line, you must use one of the "ink" methods, like stroke().
-2. Draw a circle
+2. draw a circle on a canvas, use the following methods: 
+
+beginPath() - begins a path 
+
+arc(x,y,r,startangle,endangle) - creates an arc/curve. To create a circle with arc(): Set start angle to 0 and end angle to 2*Math.PI. The x and y parameters define the x- and y-coordinates of the center of the circle. The r parameter defines the radius of the circle. 
+
+Define a circle with the arc() method. Then use the stroke() method to actually draw the circle.
