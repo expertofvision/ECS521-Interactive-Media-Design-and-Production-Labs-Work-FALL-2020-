@@ -40,3 +40,22 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     font - defines the font properties for the text <br/>
     fillText(text,x,y) - draws "filled" text on the canvas <br/>
     strokeText(text,x,y) - draws text on the canvas (no fill) <br/>
+4. Draw an image on a canvas, use the following method; <br/>
+    drawImage(image,x,y) <br/>
+   You need to first define image as follows; <br/>
+    <img id="scream" width="220" height="277" src="pic_the_scream.jpg" alt="The Scream"> <br/>
+   Then, var img = document.getElementById("scream"); will be used. <br/>
+   Draw Paths on canvas like this using following script; <br/>
+    ctx.beginPath();                
+    ctx.arc(75,75,50,0,Math.PI*2,true);  // Outer circle                               
+
+    ctx.moveTo(110,75);               
+    ctx.arc(75,75,35,0,Math.PI,false);   // Mouth                               
+
+    ctx.moveTo(65,65);               
+    ctx.arc(60,65,5,0,Math.PI*2,true);  // Left eye                               
+
+    ctx.moveTo(95,65);                
+    ctx.arc(90,65,5,0,Math.PI*2,true);  // Right eye               
+    
+    ctx.stroke();
