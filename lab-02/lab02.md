@@ -61,14 +61,14 @@ used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/do
 
 ## C. Add more Objects
 1. Go to the definition of drawForeground function.
-2. Add an albatross image as follows;
+2. Add an [albatross image](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-02/37586.png) as follows; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; albatross_img = new Image(); <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; albatross_img.src = '37586.png'; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; albatross_img.onload = function(){ <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fg_ctx.drawImage(albatross_img, 200, 200); <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
 
-3. Draw a couple of clouds by invoking the function drawCloud(startX, startY, alpha) as follows;
+3. Draw a couple of clouds by invoking the function drawCloud(startX, startY, alpha) as follows; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; let numClouds = 10; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (let i = 1; i < numClouds; i++) <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; { <br/>
