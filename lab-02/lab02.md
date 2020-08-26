@@ -47,15 +47,15 @@ used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/do
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; let style_width = +getComputedStyle(bg_canvas).getPropertyValue("width").slice(0, -2) * scale; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; let style_height = +getComputedStyle(bg_canvas).getPropertyValue("height").slice(0, -2) * scale; <br/>
 
-3. Change the calls to drawBackground and drawForeground so they read;
+3. Change the calls to drawBackground and drawForeground so they read; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drawBackground(style_width, style_height); <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drawForeground(style_width, style_height); <br/>
 
-4. Go to the definition of drawBackground function and set the size of the canvas at the beginning;
+4. Go to the definition of drawBackground function and set the size of the canvas at the beginning; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bg_canvas.setAttribute('width', width); <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bg_canvas.setAttribute('height', height); <br/>
 
-5. Go to the definition of drawForeground function and set the size of the canvas at the beginning;
+5. Go to the definition of drawForeground function and set the size of the canvas at the beginning; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fg_canvas.setAttribute('width', width); <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fg_canvas.setAttribute('height', height); <br/>
 
