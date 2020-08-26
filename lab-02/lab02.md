@@ -43,7 +43,7 @@ used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/do
 1. Add the following line at beginning sky.js;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var scale = window.devicePixelRatio; <br/>
 
-2. Go to the definition of redraw function. Add the following lines to get the CSS width and height of the canvas and scale it using the variable defined in the previous step [2].
+2. Go to the definition of redraw function. Add the following lines to get the CSS width and height of the canvas and scale it using the variable defined in the previous step [[2]](https://medium.com/wdstack/fixing-html5-2d-canvas-blur-8ebe27db07da).
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; let style_width = +getComputedStyle(bg_canvas).getPropertyValue("width").slice(0, -2) * scale; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; let style_height = +getComputedStyle(bg_canvas).getPropertyValue("height").slice(0, -2) * scale; <br/>
 
