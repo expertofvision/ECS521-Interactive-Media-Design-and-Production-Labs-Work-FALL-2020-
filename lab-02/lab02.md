@@ -15,15 +15,15 @@ This lab is about styling a canvas and simulating depth.
 
 ### Adapt canvas to windows size 
 1. Notice there is a space between the beginning of the web page and where the canvas is displayed.
-2. Eliminate this space by adding the following rule to layout.css file;
-    html, body { <br/>
-    width: 100%; <br/>
-    height: 100%; <br/>
-    margin: 0; <br/>
-    border: 0; <br/>
-    overflow: hidden; /* Disable scrollbars */ <br/>
-    display: block; /* No floating content on sides */ <br/>
-    } <br/>
+2. Eliminate this space by adding the following rule to layout.css file; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html, body { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; width: 100%; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; height: 100%; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; margin: 0; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; border: 0; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; overflow: hidden; /* Disable scrollbars */ <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; display: block; /* No floating content on sides */ <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
 
 3. Make the canvas fit 100% of the page by adding the following rule to layout.css file.
 
