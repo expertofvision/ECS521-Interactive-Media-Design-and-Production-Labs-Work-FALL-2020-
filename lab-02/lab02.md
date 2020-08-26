@@ -77,13 +77,13 @@ used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/do
 
 ## D. To do Questions
 
-1. Notice the alpha argument sets the transparency of the cloud. Modify function drawCloud(); [Help](https://www.w3schools.com/tags/ref_canvas.asp)
-    a) Tune this function for transparency.
-    b) Change starting point of clouds.
-    c) Change colour of clouds.
-2. Creat your own different shape cloud
-    a) using [HTML canvas bezierCurveTo()](https://www.w3schools.com/tags/canvas_beziercurveto.asp) Method.
-    b) using [HTML canvas quadraticCurveTo()](https://www.w3schools.com/tags/canvas_quadraticcurveto.asp) Method.
+1. Notice the alpha argument sets the transparency of the cloud. Modify function drawCloud(); [Help](https://www.w3schools.com/tags/ref_canvas.asp) <br/>
+    a) Tune this function for transparency. <br/>
+    b) Change starting point of clouds. <br/>
+    c) Change colour of clouds. <br/>
+2. Creat your own different shape cloud. <br/>
+    a) using [HTML canvas bezierCurveTo()](https://www.w3schools.com/tags/canvas_beziercurveto.asp) Method. <br/>
+    b) using [HTML canvas quadraticCurveTo()](https://www.w3schools.com/tags/canvas_quadraticcurveto.asp) Method. <br/>
 
 #### Help: You can also use bezierCurveTo command generator, if you are more familiar with JavaScript and Canvas.
 
