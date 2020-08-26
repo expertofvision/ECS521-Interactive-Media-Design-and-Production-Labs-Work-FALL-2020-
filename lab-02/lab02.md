@@ -77,8 +77,13 @@ used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/do
 
 ## D. To do Questions
 
-1. Notice the alpha argument sets the transparency of the cloud. Tune it to make bird more visible.
-2. Creat your own cloud using HTML canvas bezierCurveTo() and HTML canvas quadraticCurveTo() Methods. Note: The bird should be more visible.
+1. Notice the alpha argument sets the transparency of the cloud. Modify function drawCloud(); [Help](https://www.w3schools.com/tags/ref_canvas.asp)
+    a) Tune this function for transparency.
+    b) Change starting point of clouds.
+    c) Change colour of clouds.
+2. Creat your own different shape cloud
+    a) using [HTML canvas bezierCurveTo()](https://www.w3schools.com/tags/canvas_beziercurveto.asp) Method.
+    b) using [HTML canvas quadraticCurveTo()](https://www.w3schools.com/tags/canvas_quadraticcurveto.asp) Method.
 
 #### Help: You can also use bezierCurveTo command generator, if you are more familiar with JavaScript and Canvas.
 
