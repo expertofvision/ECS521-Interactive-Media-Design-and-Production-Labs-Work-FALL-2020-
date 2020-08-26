@@ -17,7 +17,7 @@ This lab is about styling a canvas and simulating depth.
 1. Notice there is a space between the beginning of the web page and where the canvas is displayed.
 2. Eliminate this space by adding the following rule to layout.css file;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; html, body { <br/>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;html, body { <br/>
 width: 100%; <br/>
 height: 100%; <br/>
 margin: 0; <br/>
