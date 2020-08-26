@@ -10,7 +10,7 @@
 This lab is about styling a canvas and simulating depth.
 
 ## A. Setup
-1. Open index.html file in browser (Chrome/Firefox/IE).
+1. Open index.html file in browser (chrome/firefox/ie).
 2. Open index.html, layout.css and sky.js files in a text editor.
 
 ### Adapt canvas to windows size 
