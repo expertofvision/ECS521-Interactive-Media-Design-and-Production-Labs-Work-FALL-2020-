@@ -38,7 +38,7 @@ This lab is about styling a canvas and simulating depth.
 Here we will use the window property devicePixelRatio that “returns the ratio of the resolution in physical pixels to the
 resolution in CSS pixels for the current display device. This value could also be interpreted as the ratio of pixel sizes: the size of one
 CSS pixel to the size of one physical pixel. In simpler terms, this tells the browser how many of the screen’s actual pixels should be
-used to draw a single CSS pixel.” [1] 
+used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio). 
 
 1. Add the following line at beginning sky.js;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var scale = window.devicePixelRatio; <br/>
