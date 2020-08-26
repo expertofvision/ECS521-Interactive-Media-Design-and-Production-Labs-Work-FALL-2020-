@@ -40,10 +40,10 @@ resolution in CSS pixels for the current display device. This value could also b
 CSS pixel to the size of one physical pixel. In simpler terms, this tells the browser how many of the screen’s actual pixels should be
 used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio). 
 
-1. Add the following line at beginning sky.js;
+1. Add the following line at beginning sky.js; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var scale = window.devicePixelRatio; <br/>
 
-2. Go to the definition of redraw function. Add the following lines to get the CSS width and height of the canvas and scale it using the variable defined in the previous step [[2]](https://medium.com/wdstack/fixing-html5-2d-canvas-blur-8ebe27db07da).
+2. Go to the definition of redraw function. Add the following lines to get the CSS width and height of the canvas and scale it using the variable defined in the previous step [[2]](https://medium.com/wdstack/fixing-html5-2d-canvas-blur-8ebe27db07da). <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; let style_width = +getComputedStyle(bg_canvas).getPropertyValue("width").slice(0, -2) * scale; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; let style_height = +getComputedStyle(bg_canvas).getPropertyValue("height").slice(0, -2) * scale; <br/>
 
