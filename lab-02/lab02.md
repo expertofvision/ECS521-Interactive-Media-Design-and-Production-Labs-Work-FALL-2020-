@@ -10,8 +10,8 @@
 This lab is about styling a canvas and simulating depth.
 
 ## A. Setup
-1. Open index.html file in browser (chrome/firefox/ie).
-2. Open index.html, layout.css and sky.js files in a text editor.
+1. Open [index.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-02/index.html) file in browser (chrome/firefox/ie).
+2. Open [index.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-02/index.html), layout.css and sky.js files in a text editor.
 
 ### Adapt canvas to windows size 
 1. Notice there is a space between the beginning of the web page and where the canvas is displayed.
