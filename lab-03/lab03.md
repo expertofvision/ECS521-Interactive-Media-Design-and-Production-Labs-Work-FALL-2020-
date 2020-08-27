@@ -51,6 +51,17 @@ context.drawImage(img, sx, sy, swidth, sheight, x, y, width, height); <br/>
   * width	- Optional. The width of the image to use (stretch or reduce the image)	
   * height - Optional. The height of the image to use (stretch or reduce the image)
 
+_Consider varying the position of the above to create 3 different sets of cropped image.
+
+2. Applying Transformation on image into canvas. Note: Draw the original red_panda.jpg image in canvas.
+  * Translation as follows; <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.translate(tx, ty); <br/>
+  * Scaling as follows; <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.scale(Sx, Sy); <br/>
+  * Rotation as follows; <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.rotate(Angle * Math.PI / 180); <br/>
+
+
 
 
 
