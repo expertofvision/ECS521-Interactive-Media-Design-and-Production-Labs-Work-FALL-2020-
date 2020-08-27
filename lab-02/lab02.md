@@ -88,6 +88,9 @@ used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/do
 #### Help: You can also use bezierCurveTo command generator, if you are more familiar with JavaScript and Canvas.
 
 
+## Good Luck!
+
+
 
 
 
