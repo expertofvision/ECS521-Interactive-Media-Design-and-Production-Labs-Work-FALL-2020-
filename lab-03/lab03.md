@@ -40,15 +40,15 @@ _Note the image is centered within the canvas. This is achieved by â€œaligningâ€
 ## D. To do Questions
 1. Crop the image in canvas using [HTML canvas drawImage()](https://www.w3schools.com/tags/canvas_drawimage.asp) Method as follows; <br/>
 context.drawImage(img, sx, sy, swidth, sheight, x, y, width, height); <br/>
-  * img	Specifies the image, canvas, or video element to use <br/>	 
-sx	Optional. The x coordinate where to start clipping	
-sy	Optional. The y coordinate where to start clipping	
-swidth	Optional. The width of the clipped image	
-sheight	Optional. The height of the clipped image	
-x	The x coordinate where to place the image on the canvas	
-y	The y coordinate where to place the image on the canvas	
-width	Optional. The width of the image to use (stretch or reduce the image)	
-height	Optional. The height of the image to use (stretch or reduce the image)
+  * img	- Specifies the image, canvas, or video element to use <br/>	 
+  * sx - Optional. The x coordinate where to start clipping	
+  * sy - Optional. The y coordinate where to start clipping	
+  * swidth - Optional. The width of the clipped image	
+  * sheight - Optional. The height of the clipped image	
+  * x	- The x coordinate where to place the image on the canvas	
+  * y	- The y coordinate where to place the image on the canvas	
+  * width	- Optional. The width of the image to use (stretch or reduce the image)	
+  * height - Optional. The height of the image to use (stretch or reduce the image)
 
 
 
