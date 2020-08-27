@@ -7,5 +7,9 @@
 </div>
 
 ### About this Lab
-The purpose of this lab session is get experience working with HTML5 Canvas images and to learn transformation. 
+The purpose of this lab session is get experience working with HTML5 Canvas images and to learn transformation.
+
+## A. Setup
+1. Open [index.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-03/index.html) in browser (chrome/firefox/ie).
+2. Open [index.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-03/index.html) in text editor.
 
