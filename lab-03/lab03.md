@@ -66,7 +66,7 @@ _Consider varying the position of the above to create 3 different sets of croppe
   * Write 6 different functions to elaborate concept of horizental and vertical scaling, skewing and moving.
 
 
-
+## Good Luck!
 
 
     
