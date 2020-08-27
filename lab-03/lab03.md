@@ -29,5 +29,5 @@ The purpose of this lab session is get experience working with HTML5 Canvas imag
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; imageObj.src="./red_panda.jpg" <br/>
 
-#### Note the image is centered within the canvas. This is achieved by “aligning” the centres of both the canvas and the image (see variables destX and destY). 
+_Note the image is centered within the canvas. This is achieved by “aligning” the centres of both the canvas and the image (see variables destX and destY)._ 
 
