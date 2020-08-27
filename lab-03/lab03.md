@@ -63,7 +63,7 @@ _Consider varying the position of the above to create 3 different sets of croppe
  
 3. Using [ctx.transform()](https://www.w3schools.com/tags/canvas_transform.asp) Method, do the following;
   * Draw original red_panda.jpg.
-  * Write 6 different functions to elaborate concept of horizental and vertical scaling, skewing and moving.
+  * Write Menue driven program ----- 6 different functions to elaborate concept of horizental and vertical scaling, skewing and moving.
 
 
 ## Good Luck!
