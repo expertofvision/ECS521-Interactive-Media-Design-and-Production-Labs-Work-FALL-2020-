@@ -32,13 +32,14 @@ The purpose of this lab session is get experience working with HTML5 Canvas imag
 _Note the image is centered within the canvas. This is achieved by “aligning” the centres of both the canvas and the image (see variables destX and destY)._
 
 ## C. Position the image on the canvas, and specify width and height of the image using [HTML canvas drawImage()](https://www.w3schools.com/tags/canvas_drawimage.asp) Method.
-1. Draw/Position the image on the canvas using following function and width, height. <br/>
-
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; context.drawImage(img,x,y,width,height); <br/>
+1. Commnet following line. <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.drawImage(this, destX, destY); <br/>
+2. Add folllowing line. <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.drawImage(this, destX, destY, 200, 200); <br/>
 
 ## C. Crop an Image
 1. comment following function call; <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.drawImage(this, destX, destY); <br/>
+    
 
 
 
