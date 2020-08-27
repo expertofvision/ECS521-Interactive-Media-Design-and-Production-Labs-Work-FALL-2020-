@@ -40,7 +40,7 @@ _Note the image is centered within the canvas. This is achieved by â€œaligningâ€
 ## D. To do Questions
 1. Crop the image in canvas using [HTML canvas drawImage()](https://www.w3schools.com/tags/canvas_drawimage.asp) Method as follows; <br/>
 
-context.drawImage(img, sx, sy, swidth, sheight, x, y, width, height); <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; context.drawImage(img, sx, sy, swidth, sheight, x, y, width, height); <br/>
   * img	- Specifies the image, canvas, or video element to use <br/>	 
   * sx - Optional. The x coordinate where to start clipping	
   * sy - Optional. The y coordinate where to start clipping	
@@ -51,14 +51,14 @@ context.drawImage(img, sx, sy, swidth, sheight, x, y, width, height); <br/>
   * width	- Optional. The width of the image to use (stretch or reduce the image)	
   * height - Optional. The height of the image to use (stretch or reduce the image)
 
-_Consider varying the position of the above to create 3 different sets of cropped image.
+_Consider varying the position of the above to create 3 different sets of cropped image._
 
 2. Applying Transformation on image into canvas. Note: Draw the original red_panda.jpg image in canvas.
-  * Translation as follows; <br/>
+  * [Translation](https://www.w3schools.com/tags/canvas_translate.asp) as follows; <br/>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.translate(tx, ty); <br/>
-  * Scaling as follows; <br/>
+  * [Scaling](https://www.w3schools.com/tags/canvas_scale.asp) as follows; <br/>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.scale(Sx, Sy); <br/>
-  * Rotation as follows; <br/>
+  * [Rotation](https://www.w3schools.com/tags/canvas_rotate.asp) as follows; <br/>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.rotate(Angle * Math.PI / 180); <br/>
 
 
