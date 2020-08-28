@@ -128,8 +128,8 @@ Note: the image used is [cat](https://www.flickr.com/photos/mextech/6093923823/)
 
 ## F. Free Drawing
 This exercise was taken from [Free Drawing Konva Demo](https://konvajs.org/docs/sandbox/Free_Drawing.html).
-1. Open D.html in browser (chrome/firefix/ie).
-2. Open D.html in text editor.
+1. Open [D.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-05/D.html) in browser (chrome/firefix/ie).
+2. Open [D.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-05/D.html) in text editor.
 3. Read the code and understand it.
 4. Try to add options to change the brush colour.
 5. Try to add an option to clear the whole canvas.
