@@ -39,59 +39,59 @@ This exercise was taken from HTML5 Canvas Shape Events.
 
 ### Draw a triangle as follows; <br/>
 1. Add following triangle drawing function. <br/>
-var triangle = new Konva.RegularPolygon({ <br/>
-x: 80, <br/>
-y: 120, <br/>
-sides: 3, <br/>
-radius: 80, <br/>
-fill: '#00D2FF', <br/>
-stroke: 'black', <br/>
-strokeWidth: 4 <br/>
-}); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var triangle = new Konva.RegularPolygon({ <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x: 80, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y: 120, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sides: 3, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; radius: 80, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill: '#00D2FF', <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stroke: 'black', <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; strokeWidth: 4 <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
 
 2. Add a mouseout event to the triangle. <br/>
-triangle.on('mouseout', function() { <br/>
-writeMessage('Mouseout triangle'); <br/>
-}); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; triangle.on('mouseout', function() { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseout triangle'); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
 
 3. Add a mousemove event to the triangle and display the mouse position. <br/>
-triangle.on('mousemove', function() { <br/>
-var mousePos = stage.getPointerPosition(); <br/>
-var x = mousePos.x - 190; <br/>
-var y = mousePos.y - 40; <br/>
-writeMessage('x: ' + x + ', y: ' + y); <br/>
-}); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; triangle.on('mousemove', function() { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var mousePos = stage.getPointerPosition(); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var x = mousePos.x - 190; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var y = mousePos.y - 40; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('x: ' + x + ', y: ' + y); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
 
 4. Add the triangle to the layer. <br/>
-layer.add(triangle); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; layer.add(triangle); <br/>
 
 ### Draw circle as follows; <br/>
 1. Add following circle drawing function. <br/>
-var circle = new Konva.Circle({ <br/>
-x: 230, <br/>
-y: 100, <br/>
-radius: 60, <br/>
-fill: 'red', <br/>
-stroke: 'black', <br/>
-strokeWidth: 4 <br/>
-}); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var circle = new Konva.Circle({ <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x: 230, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y: 100, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; radius: 60, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill: 'red', <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stroke: 'black', <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; strokeWidth: 4 <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
 
 2. Add following events to the circle. <br/>
-circle.on('mouseover', function() { <br/>
-writeMessage('Mouseover circle'); <br/>
-}); <br/>
-circle.on('mouseout', function() { <br/>
-writeMessage('Mouseout circle'); <br/>
-}); <br/>
-circle.on('mousedown', function() { <br/>
-writeMessage('Mousedown circle'); <br/>
-}); <br/>
-circle.on('mouseup', function() { <br/>
-writeMessage('Mouseup circle'); <br/>
-}); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mouseover', function() { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseover circle'); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mouseout', function() { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseout circle'); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mousedown', function() { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mousedown circle'); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mouseup', function() { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseup circle'); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
 
 3. Add the circle to the layer. <br/>
-layer.add(circle); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; layer.add(circle); <br/>
 
 
 
