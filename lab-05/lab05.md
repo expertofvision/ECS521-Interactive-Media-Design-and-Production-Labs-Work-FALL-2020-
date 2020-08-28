@@ -34,8 +34,8 @@ This lab focuses on adding interactive animation to HTML5 canvas using [Konva.js
     
 ## D. Associate events with different shapes on a canvas 
 This exercise was taken from [HTML5 Canvas Shape Events](https://konvajs.org/docs/events/Binding_Events.html).
-1. Open B.html in browser (chrome/firefox/ie).
-2. Open B.html in text editor.
+1. Open [B.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-05/B.html) in browser (chrome/firefox/ie).
+2. Open [B.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-05/B.html) in text editor.
 
 ### Draw a triangle as follows; <br/>
 1. Add following triangle drawing function. <br/>
