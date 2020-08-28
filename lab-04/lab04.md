@@ -17,11 +17,11 @@ The purpose of this lab session is basis of data persistance.
 Write a program to count the vowels in a text.
 
 1. Open process_text.js file in a text editor
-2. Add both the button and textarea elements: 
-    let btn = document.getElementById('count_btn');
-    let txt_field = document.getElementById('input_txt');
-3. Go to the onlick event definition for the button. 
-    btn.onclick = function() {
+2. Add both the button and textarea elements: <br/>
+    let btn = document.getElementById('count_btn'); <br/>
+    let txt_field = document.getElementById('input_txt'); <br/>
+3. Go to the onlick event definition for the button. <br/>
+    btn.onclick = function() { <br/>
     };
 4. Add the value typed on the text area.
     let txt = txt_field.value;
