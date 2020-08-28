@@ -93,6 +93,42 @@ This exercise was taken from HTML5 Canvas Shape Events.
 3. Add the circle to the layer. <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; layer.add(circle); <br/>
 
+## E. Drag and Drop an Image
+This exercise was taken from HTML5 Canvas Drag and Drop an Image.
+1. Open C.html in browser (chrome/firefox/ie).
+2. Open C.html in text editor.
+3. Load the image as follows; <br/> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var imageObj = new Image(); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; imageObj.onload = function() { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drawImage(this); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; imageObj.src = 'cat.jpg'; <br/>
+4. Add the KonvaImage in the centre of the stage and make it draggable.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var catImg = new Konva.Image({ <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; image: imageObj, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x: stage.width() / 2 - 150 / 2, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y: stage.height() / 2 - 150 / 2, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; width: 150, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; height: 150, <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; draggable: true <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+5. Change the cursor style. <br/> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; catImg.on('mouseover', function() { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.body.style.cursor = 'pointer'; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; catImg.on('mouseout', function() { <br/>
+    document.body.style.cursor = 'default'; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+6. Add the KonvaImage to the layer. <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; layer.add(catImg); <br/>
+7. Add the layer to the stage. <br/> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stage.add(layer); <br/>
+
+Note: the image used is cat by Artis Logins. 
+
+
+
+
 
 
 
