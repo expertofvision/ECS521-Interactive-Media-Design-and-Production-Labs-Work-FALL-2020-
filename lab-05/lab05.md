@@ -68,27 +68,27 @@ This exercise was taken from [HTML5 Canvas Shape Events](https://konvajs.org/doc
 ### Draw circle as follows; <br/>
 1. Add following circle drawing function. <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var circle = new Konva.Circle({ <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x: 230, <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y: 100, <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; radius: 60, <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill: 'red', <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stroke: 'black', <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; strokeWidth: 4 <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x: 230, <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; y: 100, <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; radius: 60, <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill: 'red', <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stroke: 'black', <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; strokeWidth: 4, <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
 
 2. Add following events to the circle. <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mouseover', function() { <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseover circle'); <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mouseout', function() { <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseout circle'); <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mousedown', function() { <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mousedown circle'); <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mouseup', function() { <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseup circle'); <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mouseover', function () { <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseover circle'); <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mouseout', function () { <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseout circle'); <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mousedown', function () { <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mousedown circle'); <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; circle.on('mouseup', function () { <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writeMessage('Mouseup circle'); <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
 
 3. Add the circle to the layer. <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; layer.add(circle); <br/>
