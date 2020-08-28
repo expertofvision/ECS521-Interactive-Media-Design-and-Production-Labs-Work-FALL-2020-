@@ -33,7 +33,7 @@ This lab focuses on adding interactive animation to HTML5 canvas using [Konva.js
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
     
 ## D. Associate events with different shapes on a canvas 
-This exercise was taken from HTML5 Canvas Shape Events.
+This exercise was taken from [HTML5 Canvas Shape Events](https://konvajs.org/docs/events/Binding_Events.html).
 1. Open B.html in browser (chrome/firefox/ie).
 2. Open B.html in text editor.
 
@@ -94,7 +94,7 @@ This exercise was taken from HTML5 Canvas Shape Events.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; layer.add(circle); <br/>
 
 ## E. Drag and Drop an Image
-This exercise was taken from HTML5 Canvas Drag and Drop an Image.
+This exercise was taken from [HTML5 Canvas Drag and Drop an Image](https://konvajs.org/docs/drag_and_drop/Drag_an_Image.html).
 1. Open C.html in browser (chrome/firefox/ie).
 2. Open C.html in text editor.
 3. Load the image as follows; <br/> 
@@ -117,16 +117,22 @@ This exercise was taken from HTML5 Canvas Drag and Drop an Image.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.body.style.cursor = 'pointer'; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; catImg.on('mouseout', function() { <br/>
-    document.body.style.cursor = 'default'; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.body.style.cursor = 'default'; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }); <br/>
 6. Add the KonvaImage to the layer. <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; layer.add(catImg); <br/>
 7. Add the layer to the stage. <br/> 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; stage.add(layer); <br/>
 
-Note: the image used is cat by Artis Logins. 
+Note: the image used is [cat](https://www.flickr.com/photos/mextech/6093923823/) by [Artis Logins](https://www.flickr.com/photos/mextech/).
 
-
+## F. Free Drawing
+This exercise was taken from [Free Drawing Konva Demo](https://konvajs.org/docs/sandbox/Free_Drawing.html).
+1. Open D.html in browser (chrome/firefix/ie).
+2. Open D.html in text editor.
+3. Read the code and understand it.
+4. Try to add options to change the brush colour.
+5. Try to add an option to clear the whole canvas.
 
 
 
