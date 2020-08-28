@@ -95,8 +95,8 @@ This exercise was taken from [HTML5 Canvas Shape Events](https://konvajs.org/doc
 
 ## E. Drag and Drop an Image
 This exercise was taken from [HTML5 Canvas Drag and Drop an Image](https://konvajs.org/docs/drag_and_drop/Drag_an_Image.html).
-1. Open C.html in browser (chrome/firefox/ie).
-2. Open C.html in text editor.
+1. Open [C.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-05/C.html) in browser (chrome/firefox/ie).
+2. Open [C.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-05/C.html) in text editor.
 3. Load the image as follows; <br/> 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var imageObj = new Image(); <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; imageObj.onload = function() { <br/>
