@@ -10,7 +10,7 @@
 This lab focuses on adding interactive animation to HTML5 canvas using [Konva.js](https://konvajs.org/), a HTML5 2d canvas library.
 
 ## A. How does it works?
-1. Every thing starts from Konva.Stage that contains several user’s layers (Konva.Layer) [1](https://konvajs.org/docs/overview.html). 
+1. Every thing starts from Konva.Stage that contains several user’s layers (Konva.Layer) [[1]](https://konvajs.org/docs/overview.html). 
 2. Each layer can contain shapes, groups of shapes, or groups of other groups.
 
 ## B. Setup
