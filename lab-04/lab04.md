@@ -38,7 +38,7 @@ Write a program to count the vowels in a text.
 8. Set a new value to the previous element, reflecting the number of vowels present in the input text: 
     result.innerHTML = 'Your input contains ' + count + ' vowels';
 
-## HTML Web Storage
+## HTML5 Web Storage
 1. HTML web storage; better than cookies.
 2. With web storage, web applications can store data locally within the user's browser.
 3. Before HTML5, application data had to be stored in cookies, included in every server request. Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance.
@@ -48,55 +48,57 @@ Write a program to count the vowels in a text.
     * window.localStorage - stores data with no expiration date
     * window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
 Before using web storage, check browser support for localStorage and sessionStorage: <br/>
-if (typeof(Storage) !== "undefined") { <br/>
-  // Code for localStorage/sessionStorage. <br/>
-} else { <br/>
-  // Sorry! No Web Storage support.. <br/>
-} <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (typeof(Storage) !== "undefined") { <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Code for localStorage/sessionStorage. <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else { <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Sorry! No Web Storage support.. <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
 
 ### The localStorage Object
 The localStorage object stores the data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.
 1. Open [last_name.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-04/last_name.html) in browser (chrome/firefox/ie).
 2. Open [last_name.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-04/last_name.html) in text editor.
 3. Add following statement for storing last name. <br/>
-    localStorage.setItem("lastname", "Bilal"); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; localStorage.setItem("lastname", "Bilal"); <br/>
 4. Add following statement to retrieve last name. <br/>
-    document.getElementById("result").innerHTML = localStorage.getItem("lastname"); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.getElementById("result").innerHTML = localStorage.getItem("lastname"); <br/>
+
+### Comparing localStorage Object and sessionStorage Object
+The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session. The data is deleted when the user closes the specific browser tab.
+1. Open [local_vs_session.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-04/local_vs_session.html) in browser (chrome/firefox/ie).
+2. Open [local_vs_session.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-04/local_vs_session.html) in text editor.
+3. Add following function for localStorage. Close and Open tab/window multiple times and notice counter value. <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; function clickCounter() { <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (typeof(Storage) !== "undefined") { <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (localStorage.clickcount) { <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; localStorage.clickcount = Number(localStorage.clickcount)+1; <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else { <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; localStorage.clickcount = 1; <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s)."; <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else { <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage..."; <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
+
+4. Comment function for localStorage and add following function for sessionStorage. Close and Open tab/window multiple times and notice counter value. <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; function clickCounter() { <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (typeof(Storage) !== "undefined") { <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (sessionStorage.clickcount) { <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sessionStorage.clickcount = Number(sessionStorage.clickcount)+1; <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else { <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sessionStorage.clickcount = 1; <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session."; <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else { <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage..."; <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
 
 
 
 
-## C. HTML5 Web Storage.
 
-The rest of the lab will be focused on achieving data persistence using a web storage. 
-“With web storage, web applications can store data locally within the user’s browser” [1]. The storage limit is at least 5MB. There
-are two properties that can be used: localStorage and sessionStorage. The difference between them is that “localStorage
-has no expiration time, whilst data stored in sessionStorage gets cleared when the page session ends — that is, when the page
-is closed” [2].
-
-The lab will focus on using localStorage property.
-
-## D. Create a greeting message with your name
-1. Open greet_user.js file in browser (chrome/firefix/ie).
-2. Open greet_user.js file in a text editor.
-3. Go to the definition of update_greet_message() functionCheck if the item name exists in the localStorage and if it does, update the message to display: 
-    if (localStorage.name) {
-    greetings.innerHTML = 'Hello ' + localStorage.name + '!';
-    }
-
-4. Go to the definition of greet_user() function
-5. Add the event onclick for the button. The goal is to get the name entered by the user and display the greeting message 
-    btn.onclick = function() {
-    localStorage.name = name_field.value;
-    update_greet_message();
-    };
-6. Close the browser and open it once again
-Note the greet message displays the name given by the user.
-
-## E. Persistance using XML files 
-Check for reference: * Lab #2 * XML HttpRequest * How to create a DOM tree. 
-1. Following the first exercise, given an input text, try to count the occurrences of each vowel independently.
-2. Save these results into a XML file.
 
 
 
