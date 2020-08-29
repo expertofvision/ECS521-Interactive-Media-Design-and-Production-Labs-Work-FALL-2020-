@@ -29,7 +29,7 @@ The purpose of this lab session is get experience working with HTML5 Canvas imag
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; imageObj.src="./red_panda.jpg" <br/>
 
-_Note the image is centered within the canvas. This is achieved by “aligning” the centres of both the canvas and the image (see variables destX and destY)._
+**Note:** The image is centered within the canvas. This is achieved by “aligning” the centres of both the canvas and the image (see variables destX and destY).
 
 ## C. Position the image on the canvas, and specify width and height of the image using [HTML canvas drawImage()](https://www.w3schools.com/tags/canvas_drawimage.asp) Method.
 1. Commnet following line. <br/>
@@ -65,6 +65,7 @@ _Consider varying the position of the above to create 3 different sets of croppe
   * Draw original red_panda.jpg.
   * Write Menue driven program ----- 6 different functions to elaborate concept of horizental and vertical scaling, skewing and moving.
 
+**Submission Instructions:** To be added..................
 
 ## Good Luck!
 
