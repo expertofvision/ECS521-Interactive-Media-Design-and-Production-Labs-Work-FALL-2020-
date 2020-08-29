@@ -97,6 +97,7 @@ The sessionStorage object is equal to the localStorage object, except that it st
     
  ## D. To Do Questions
  1. Following the first exercise, given an input text, count the occurrences of each vowel independently.
+ 2. Storage remove and clear.
  
  ## Submission: To be defined.......................................... 
  
