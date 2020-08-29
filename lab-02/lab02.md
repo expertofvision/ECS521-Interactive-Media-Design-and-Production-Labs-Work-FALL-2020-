@@ -85,8 +85,9 @@ used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/do
     a) using [HTML canvas bezierCurveTo()](https://www.w3schools.com/tags/canvas_beziercurveto.asp) Method. <br/>
     b) using [HTML canvas quadraticCurveTo()](https://www.w3schools.com/tags/canvas_quadraticcurveto.asp) Method. <br/>
 
-#### Help: You can also use bezierCurveTo command generator, if you are more familiar with JavaScript and Canvas.
+#### Help: You can also use [ezierCurveTo command generator](http://www.victoriakirst.com/beziertool/), if you are more familiar with JavaScript and Canvas.
 
+**Submission Instructions:** To be added....................
 
 ## Good Luck!
 
