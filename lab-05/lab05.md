@@ -132,7 +132,7 @@ This exercise was taken from [Free Drawing Konva Demo](https://konvajs.org/docs/
 2. Open [D.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-05/D.html) in text editor.
 3. Read the code and understand it.
 
-## To Do Questions
+## G. To Do Questions
 
 1. Add options to change and use at leaset 3 different brush colour.
 2. Add an option to clear the whole canvas at once.
