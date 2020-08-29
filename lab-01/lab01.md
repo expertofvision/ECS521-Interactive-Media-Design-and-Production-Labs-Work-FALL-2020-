@@ -106,7 +106,7 @@ stick_figure. Add the id attribute to <svg> tag, so that it reads id="stick_figu
 1. Move your stick figure by using the right, left arrow keys. Also, move figure up and down using respective arrow keys.
   
 
-** Submission Instructions:** To be added...................
+**Submission Instructions:** To be added...................
 
 
 
