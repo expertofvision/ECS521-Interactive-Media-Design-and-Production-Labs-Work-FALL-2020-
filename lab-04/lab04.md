@@ -38,6 +38,34 @@ Write a program to count the vowels in a text.
 8. Set a new value to the previous element, reflecting the number of vowels present in the input text: 
     result.innerHTML = 'Your input contains ' + count + ' vowels';
 
+## HTML Web Storage
+1. HTML web storage; better than cookies.
+2. With web storage, web applications can store data locally within the user's browser.
+3. Before HTML5, application data had to be stored in cookies, included in every server request. Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance.
+4. Unlike cookies, the storage limit is far larger (at least 5MB) and information is never transferred to the server.
+5. Web storage is per origin (per domain and protocol). All pages, from one origin, can store and access the same data.
+6. HTML web storage provides two objects for storing data on the client:
+    * window.localStorage - stores data with no expiration date
+    * window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
+Before using web storage, check browser support for localStorage and sessionStorage: <br/>
+if (typeof(Storage) !== "undefined") { <br/>
+  // Code for localStorage/sessionStorage. <br/>
+} else { <br/>
+  // Sorry! No Web Storage support.. <br/>
+} <br/>
+
+### The localStorage Object
+The localStorage object stores the data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.
+1. Open [last_name.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-04/last_name.html) in browser (chrome/firefox/ie).
+2. Open [last_name.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-04/last_name.html) in text editor.
+3. Add following statement for storing last name. <br/>
+    localStorage.setItem("lastname", "Bilal"); <br/>
+4. Add following statement to retrieve last name. <br/>
+    document.getElementById("result").innerHTML = localStorage.getItem("lastname"); <br/>
+
+
+
+
 ## C. HTML5 Web Storage.
 
 The rest of the lab will be focused on achieving data persistence using a web storage. 
