@@ -67,9 +67,9 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 #### Practice Examples
 
 1. Copy the following script in svg.html and see the output. <br/>
-    <svg height="140" width="500"> <br/>
+    > <svg height="140" width="500"> <br/>
     <ellipse cx="200" cy="80" rx="100" ry="50" style="fill:yellow;stroke:purple;stroke-width:2" /> 
-    </svg>
+    </svg> </figure>
 2. Copy the following script in svg.html and see the output. <br/>
     <svg height="250" width="500"> 
     <polygon points="220,10 300,210 170,250 123,234" style="fill:lime;stroke:purple;stroke-width:1" /> 
