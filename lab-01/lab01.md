@@ -28,11 +28,11 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 
 #### Practice Examples
 
-1. Draw a straight line on a canvas, use the following methods; <br/>
+1. Draw a [straight line](https://www.w3schools.com/graphics/canvas_coordinates.asp) on a canvas, use the following methods; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; moveTo(x,y) - defines the starting point of the line <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lineTo(x,y) - defines the ending point of the line <br/>
    To actually draw the line, you must use one of the "ink" methods, like stroke().
-2. Draw a circle on a canvas, use the following methods; <br/>
+2. Draw a [circle](https://www.w3schools.com/graphics/canvas_coordinates.asp) on a canvas, use the following methods; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beginPath() - begins a path <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; arc(x,y,r,startangle,endangle) - creates an arc/curve. To create a circle with arc(): Set start angle to 0 and end angle     to 2*Math.PI. The &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x and y parameters     define the x- and y-coordinates of the center of the circle. The r parameter defines the radius of the circle. <br/>
    Define a circle with the arc() method. Then use the stroke() method to actually draw the circle.
@@ -40,7 +40,7 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font - defines the font properties for the text <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fillText(text,x,y) - draws "filled" text on the canvas <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; strokeText(text,x,y) - draws text on the canvas (no fill) <br/>
-4. Draw an image on a canvas as follows; <br/>
+4. Draw an [image](https://www.w3schools.com/graphics/canvas_images.asp) on a canvas as follows; <br/>
    Download [pic_the_scream.jpg](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-01/pic_the_scream.jpg) and define in the script using html. Remember to fix image width and height. <br/>
    Then, var img = document.getElementById("scream"); will be used. <br/>
 5. Draw Paths on canvas like this using following script and see the output; <br/>
@@ -90,10 +90,9 @@ Animation
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drawBall(); <br/>
  
  _Questions:_
-1. Write the differences in few sentences.
-2. Make the ball move only on horizontal direction.
-3. Make the ball move only on vertical direction.
-4. keep the ball moving inside the canvas. Hint: add an if condition to check ball.x and ball.y values.
+1. Make the ball move only on horizontal direction.
+2. Make the ball move only on vertical direction.
+3. keep the ball moving inside the canvas. Hint: add an if condition to check ball.x and ball.y values.
  
  #### SVG and JavaScript
  
@@ -102,12 +101,12 @@ Animation
 3. Click on <svg> button (top toolbar) and copy-paste the SVG of your drawing to the place marked in the index.html file. Save changes and refresh your browser. 
 
 _Questions:_
-1. Examine the JavaScript code below your SVG. It connects two functions to mouse-events, in relation to an SVG object called
-stick_figure. Add the id attribute to <svg> tag, so that it reads id="stick_figure". Try moving the mouse over your drawing and see what happens. Write the difference in few sentences.
-2. Add the properties x=0 y=0 to <svg> tag. Examine the listener keydown and the function move. Go to the browser and press the right arrow key. Check the console to see the correct key code. Do the same for the left arrow key. Replace the key codes in the move function. Move your sick figure by using the right and left arrow keys.
+Examine the JavaScript code below your SVG. It connects two functions to mouse-events, in relation to an SVG object called
+stick_figure. Add the id attribute to <svg> tag, so that it reads id="stick_figure". Try moving the mouse over your drawing. Add the properties x=0 y=0 to <svg> tag. Examine the listener keydown and the function move. Go to the browser and press the right arrow key. Check the console to see the correct key code. Do the same for the left arrow key. Replace the key codes in the move function. 
+1. Move your stick figure by using the right, left arrow keys. Also, move figure up and down using respective arrow keys.
   
 
-**Note:** Submit answers to the questions in Part C by......
+** Submission Instructions:** To be added...................
 
 
 
