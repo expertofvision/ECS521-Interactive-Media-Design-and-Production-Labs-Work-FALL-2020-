@@ -103,7 +103,7 @@ This exercise was taken from [HTML5 Canvas Drag and Drop an Image](https://konva
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drawImage(this); <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; imageObj.src = 'cat.jpg'; <br/>
-4. Add the KonvaImage in the centre of the stage and make it draggable.
+4. Add the KonvaImage in the centre of the stage and make it draggable. <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var catImg = new Konva.Image({ <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; image: imageObj, <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x: stage.width() / 2 - 150 / 2, <br/>
