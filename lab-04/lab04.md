@@ -97,7 +97,8 @@ The sessionStorage object is equal to the localStorage object, except that it st
     
  ## D. To Do Questions
  1. Following the first exercise, given an input text, count the occurrences of each vowel independently.
- 2. Storage remove and clear.
+ 2. Create your firstname, lastname and age in localStorage and display content. Then remove lastname from localStorage and display content. Now, clear localStorage and display the content.
+ 3. Create your firstname, lastname and age in sessionStorage and display content. Then remove lastname from sessionStorage and display content. Now, clear sessionStorage and display the content. **Hint.** stroage [removeitem()](https://www.w3schools.com/jsref/met_storage_removeitem.asp) and [clear()](https://www.w3schools.com/JSREF/met_storage_clear.asp) methods.
  
  **Submission Insructions:** To be added.......................................... 
  
