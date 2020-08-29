@@ -94,6 +94,14 @@ The sessionStorage object is equal to the localStorage object, except that it st
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage..."; <br/>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } <br/>
+    
+ ## D. To Do Questions
+ 1. Following the first exercise, given an input text, count the occurrences of each vowel independently.
+ 
+ ## Submission: To be defined.......................................... 
+ 
+ ### Good Luck!
+ 
 
 
 
