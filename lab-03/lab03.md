@@ -65,7 +65,23 @@ _Consider varying the position of the above to create 3 different sets of croppe
   * Download original [red_panda.jpg](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-03/red_panda.jpg).
   * Tune 6 different functions to elaborate concept of horizental and vertical scaling, skewing and moving using the respective variables.
 
-**Submission Instructions:** To be added..................
+## Submission Instructions:
+### Deadline: 13/10/20 18:00
+The Submission Link is available under ASSESMENT INFORMATION/RESOURCES Section of Module Page.
+### General Instruction:
+Assignments must be submitted in a .zip package or alike ( .7z .bdoc .cdoc .ddoc .gtar .tgz .gz .gzip .hqx .rar .sit .tar .zip). Code submitted in other formats will not be accepted. Corrupt or otherwise unreadable files will not be accepted.
+
+### Submission Checklist
+Has your file been saved in a zip package?
+Have you clicked [Submit] after uploading?
+Have you checked that the file you uploaded is the correct version?
+The first time you submit, you will be required to accept the Turnitin End User Licence Agreement.
+
+After uploading, it is your responsibility to check that your file is in the correct format and that it is readable.
+
+Late submissions will receive late penalties in line with the late penalty policy, see EECS handbook and QMUL assessment handbook.
+
+### Specific Instructions:
 
 ## Good Luck!
 
