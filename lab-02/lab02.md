@@ -93,7 +93,7 @@ The Submission Link is available under ASSESMENT INFORMATION/RESOURCES Section o
 ### General Instruction:
 Assignments must be submitted in a .zip package or alike ( .7z .bdoc .cdoc .ddoc .gtar .tgz .gz .gzip .hqx .rar .sit .tar .zip). Code submitted in other formats will not be accepted. Corrupt or otherwise unreadable files will not be accepted.
 
-### SUBMISSION CHECKLIST
+### Submission Checklist
 Has your file been saved in a zip package?
 Have you clicked [Submit] after uploading?
 Have you checked that the file you uploaded is the correct version?
