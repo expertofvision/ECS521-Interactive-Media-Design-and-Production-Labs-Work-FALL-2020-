@@ -100,7 +100,23 @@ The sessionStorage object is equal to the localStorage object, except that it st
  2. Create your firstname, lastname and age in localStorage and display content. Then remove lastname from localStorage and display content. Now, clear localStorage and display the content.
  3. Create your firstname, lastname and age in sessionStorage and display content. Then remove lastname from sessionStorage and display content. Now, clear sessionStorage and display the content. **Hint.** stroage [removeitem()](https://www.w3schools.com/jsref/met_storage_removeitem.asp) and [clear()](https://www.w3schools.com/JSREF/met_storage_clear.asp) methods.
  
- **Submission Insructions:** To be added.......................................... 
+ ## Submission Instructions:
+### Deadline: 20/10/20 18:00
+The Submission Link is available under ASSESMENT INFORMATION/RESOURCES Section of Module Page.
+### General Instruction:
+Assignments must be submitted in a .zip package or alike ( .7z .bdoc .cdoc .ddoc .gtar .tgz .gz .gzip .hqx .rar .sit .tar .zip). Code submitted in other formats will not be accepted. Corrupt or otherwise unreadable files will not be accepted.
+
+### Submission Checklist
+Has your file been saved in a zip package?
+Have you clicked [Submit] after uploading?
+Have you checked that the file you uploaded is the correct version?
+The first time you submit, you will be required to accept the Turnitin End User Licence Agreement.
+
+After uploading, it is your responsibility to check that your file is in the correct format and that it is readable.
+
+Late submissions will receive late penalties in line with the late penalty policy, see EECS handbook and QMUL assessment handbook.
+
+### Specific Instructions: 
  
  ## Good Luck!
  
