@@ -99,7 +99,7 @@ Animation
  
 1. Go to [SVG Editor](https://svg-edit.github.io/svgedit/src/editor/svg-editor.html).
 2. Draw a stick figure.
-3. Click on <svg> button (top toolbar) and copy-paste the SVG of your drawing to the place marked in the index.html file. Save changes and refresh your browser. 
+3. Click on <svg> button (top toolbar) and copy-paste the SVG of your drawing to the place marked in the [todo.html](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-01/todo.html) file. Save changes and refresh your browser. 
 
 _Questions:_
 Examine the JavaScript code below your SVG. It connects two functions to mouse-events, in relation to an SVG object called
