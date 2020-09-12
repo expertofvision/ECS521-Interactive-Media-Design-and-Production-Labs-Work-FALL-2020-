@@ -88,7 +88,7 @@ used to draw a single CSS pixel.” [[1]](https://developer.mozilla.org/en-US/do
 #### Help: You can also use [ezierCurveTo command generator](http://www.victoriakirst.com/beziertool/), if you are more familiar with JavaScript and Canvas.
 
 ## Submission Instructions:
-### Deadline: 29/09/20 18:00
+### Deadline: 06/10/20 18:00
 The Submission Link is available under ASSESMENT INFORMATION/RESOURCES Section of Module Page.
 ### General Instruction:
 Assignments must be submitted in a .zip package or alike ( .7z .bdoc .cdoc .ddoc .gtar .tgz .gz .gzip .hqx .rar .sit .tar .zip). Code submitted in other formats will not be accepted. Corrupt or otherwise unreadable files will not be accepted.
