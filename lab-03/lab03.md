@@ -38,6 +38,7 @@ The purpose of this lab session is get experience working with HTML5 Canvas imag
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.drawImage(this, destX, destY, 200, 200); <br/>
 
 ## D. To do Questions
+Note: For each question in this section, you will provide a seperate html file i.e. question_01.html, question_02.html and question_03.html.
 1. Crop the image in canvas using [HTML canvas drawImage()](https://www.w3schools.com/tags/canvas_drawimage.asp) Method as follows; <br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; context.drawImage(img, sx, sy, swidth, sheight, x, y, width, height); <br/>
