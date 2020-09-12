@@ -103,7 +103,8 @@ Animation
 
 Note:
 Examine the JavaScript code below your SVG. It connects two functions to mouse-events, in relation to an SVG object called
-stick_figure. Add the id attribute to <svg> tag, so that it reads id="stick_figure". Try moving the mouse over your drawing. Add the properties x=0 y=0 to <svg> tag. Examine the listener keydown and the function move. Go to the browser and press the right arrow key. Check the console to see the correct key code. Do the same for the left arrow key. Replace the key codes in the move function.
+stick_figure. Add the id attribute to <svg> tag, so that it reads id="stick_figure". Try moving the mouse over your drawing. Add the properties x=0 y=0 to <svg> tag. Examine the listener keydown and the function move. Go to the browser and press the right arrow key. Check the console to see the correct key code. Do the same for the left arrow key. Replace the key codes in the move function. <br/>
+  
 _Questions:_
 1. Move your stick figure by using the right, left arrow keys. Also, move figure up and down using respective arrow keys.
   
