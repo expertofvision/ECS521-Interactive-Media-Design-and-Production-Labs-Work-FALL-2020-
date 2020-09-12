@@ -154,6 +154,8 @@ After uploading, it is your responsibility to check that your file is in the cor
 Late submissions will receive late penalties in line with the late penalty policy, see EECS handbook and QMUL assessment handbook.
 
 ### Specific Instructions:
+1. To get half marks, you will attempt atleast one question.
+2. You will provide seperate html and supporting files for each question i.e. question_01.html, question_02.html.
 
 
 ## Good Luck!
