@@ -37,7 +37,7 @@ Tip: The below source code will be inserted between "<script></script>" element.
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; beginPath() - begins a path <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; arc(x,y,r,startangle,endangle) - creates an arc/curve. To create a circle with arc(): Set start angle to 0 and end angle     to 2*Math.PI. The &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x and y parameters     define the x- and y-coordinates of the center of the circle. The r parameter defines the radius of the circle. <br/>
    Define a circle with the arc() method. Then use the stroke() method to actually draw the circle.
-3. Draw text on a canvas, the most important property and methods are; <br/>
+3. Draw [text](https://www.w3schools.com/graphics/canvas_text.asp) on a canvas, the most important property and methods are; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; font - defines the font properties for the text <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fillText(text,x,y) - draws "filled" text on the canvas <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; strokeText(text,x,y) - draws text on the canvas (no fill) <br/>
