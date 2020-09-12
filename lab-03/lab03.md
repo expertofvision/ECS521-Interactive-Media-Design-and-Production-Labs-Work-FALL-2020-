@@ -53,7 +53,7 @@ The purpose of this lab session is get experience working with HTML5 Canvas imag
 
 _Consider varying the position of the above to create 3 different sets of cropped image._
 
-2. Applying Transformation on image into canvas. Note: Draw the original red_panda.jpg image in canvas.
+2. Applying Transformation on image into canvas. Note: Draw the original red_panda.jpg image in canvas again.
   * [Translation](https://www.w3schools.com/tags/canvas_translate.asp) as follows; <br/>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.translate(tx, ty); <br/>
   * [Scaling](https://www.w3schools.com/tags/canvas_scale.asp) as follows; <br/>
@@ -82,6 +82,7 @@ After uploading, it is your responsibility to check that your file is in the cor
 Late submissions will receive late penalties in line with the late penalty policy, see EECS handbook and QMUL assessment handbook.
 
 ### Specific Instructions:
+1. To get half of the marks, your code should fully implement Question No. 2.
 
 ## Good Luck!
 
