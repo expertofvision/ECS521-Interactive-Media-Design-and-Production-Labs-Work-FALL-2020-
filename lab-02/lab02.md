@@ -104,6 +104,7 @@ After uploading, it is your responsibility to check that your file is in the cor
 Late submissions will receive late penalties in line with the late penalty policy, see EECS handbook and QMUL assessment handbook.
 
 ### Specific Instructions:
+1. To get half of the marks, your code should be fully functional with atleast Question No. 1 solved completely.
 
 ## Good Luck!
 
