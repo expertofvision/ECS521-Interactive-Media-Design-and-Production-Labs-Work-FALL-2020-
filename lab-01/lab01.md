@@ -17,6 +17,7 @@ This lab includes basis of Canvas, SVG, Interaction and Animations.
 3. Open the canvas.html file in text editor.
 
 #### Drawing in Canvas (step-by-step) with JavaScript
+Tip: The below source code will be inserted between "<script></script>" element. We will be studying JavaScript in next lecture.
 
 1. Find the canvas element. <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var canvas = document.getElementById("myCanvas");
