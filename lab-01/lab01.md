@@ -44,7 +44,7 @@ Tip: The below source code will be inserted between "<script></script>" element.
 4. Draw an [image](https://www.w3schools.com/graphics/canvas_images.asp) on a canvas as follows; <br/>
    Download [pic_the_scream.jpg](https://github.com/expertofvision/ECS521-Interactive-Media-Design-and-Production-Labs-Work-FALL-2020-/blob/master/lab-01/pic_the_scream.jpg) and define in the script using html. Remember to fix image width and height. <br/>
    Then, var img = document.getElementById("scream"); will be used. <br/>
-5. Draw Paths on canvas like this using following script and see the output; <br/>
+5. Draw [Paths](https://www.w3schools.com/tags/ref_canvas.asp) on canvas like this using following script and see the output; <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.beginPath();                
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ctx.arc(75,75,50,0,Math.PI*2,true);  // Outer circle                               
 
